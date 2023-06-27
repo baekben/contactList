@@ -5,7 +5,7 @@ export default function ContactRow({ contact }) {
   }
   // responsible for rendering a single row (tr)
   // with three columns (td) name, email, phone number
-  console.log(contact);
+  // console.log(contact);
   return (
     <tr>
       <td>{contact.name}</td>
@@ -14,4 +14,3 @@ export default function ContactRow({ contact }) {
     </tr>
   );
 }
-
