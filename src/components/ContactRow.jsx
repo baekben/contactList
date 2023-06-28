@@ -7,7 +7,7 @@ export default function ContactRow({ setSelectedContactId, contact }) {
   // with three columns (td) name, email, phone number
   // console.log(contact);
   return (
-    <tr
+    <tr className="contactInfos"
       onClick={() => {
         setSelectedContactId(contact.id);
       }}

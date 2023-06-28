@@ -17,7 +17,7 @@ export default function ContactList({ setSelectedContactId }) {
           "http://fsa-jsonplaceholder-69b5c48f1259.herokuapp.com/users"
         );
         const result = await response.json();
-        console.log("Result", result);
+        //console.log("Result", result);
         setContacts(result);
       } catch (error) {
         console.error(error);
@@ -33,7 +33,7 @@ export default function ContactList({ setSelectedContactId }) {
         </tr>
       </thead>
       <tbody>
-        <tr>
+        <tr className="tableHeadings">
           <td>Name</td>
           <td>Email</td>
           <td>Phone</td>

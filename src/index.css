@@ -5,7 +5,7 @@
 
   color-scheme: light dark;
   color: rgba(255, 255, 255, 0.87);
-  background-color: #242424;
+  background-color: #606c5d;
 
   font-synthesis: none;
   text-rendering: optimizeLegibility;
@@ -53,6 +53,50 @@ button:hover {
 button:focus,
 button:focus-visible {
   outline: 4px auto -webkit-focus-ring-color;
+}
+
+table,
+th,
+td {
+  border: 1px solid;
+}
+table {
+  border-collapse: collapse;
+  table-layout: fixed;
+  width: 100%;
+}
+.tableHeadings {
+  background-color: #f86f03;
+  color: black;
+  font-size: 18px;
+  font-weight: bold;
+}
+th {
+  font-size: 36px;
+  background-color: #525fe1;
+  color: black;
+}
+tr {
+  color: black;
+}
+tr:nth-child(even) {
+  background-color: #fff6f4;
+}
+tr:nth-child(odd) {
+  background-color: #d8c4b6;
+}
+.contactInfos:hover {
+  background-color: #ffa41b;
+  font-weight: bold;
+  font: black;
+  cursor: pointer;
+}
+td {
+  width: 25%;
+}
+
+footer {
+  text-align: right;
 }
 
 @media (prefers-color-scheme: light) {
